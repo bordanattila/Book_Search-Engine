@@ -34,7 +34,7 @@ const SignupForm = () => {
       const response = await addUser({
         variables: { ...userFormData },
       });
-
+      console.log(response)
       if (!response.ok) {
         const err = new Error('something went wrong!');
         console.log(err)
@@ -43,6 +43,7 @@ const SignupForm = () => {
       const { token, user } = await response;
       console.log(user);
       Auth.login(token); 
+      console.log("token")
     } catch (err) {
       console.error(err);
       setShowAlert(true);
