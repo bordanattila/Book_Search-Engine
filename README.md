@@ -5,14 +5,12 @@
 This application was built around Google Books API search engine using GraphQL API and Apollo Server. The app is following the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API. Users can save books to their profile and delete them if needed. 
 Building this application provided challenges and helped me to better understand how to create a MERN application.
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
+## Table of Contents 
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+- [Badges](#badges)
+- [Links](#links)
 
 ## Installation
 
@@ -35,4 +33,4 @@ To run locally:
 ## Links
 
 [My GitHub Profile](https://github.com/attila)  
-[Deployed Application](https://bordanattila.github.io/React-Portfolio/)
+[Deployed Application](https://attilabooksearch.herokuapp.com/)
